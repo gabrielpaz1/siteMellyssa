@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Psicologa Mellyssa Fernandes</title>
+    <!-- Adicione os links para os arquivos do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mellyssa Fernandes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Quem sou eu?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sessoes">Sobre as sessões</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://api.whatsapp.com/send?phone=5519981913201" target="_blank">Contato pelo WhatsApp</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção "Sobre" -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="foto-doutora.jpg" alt="Foto da Doutora" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h2>Nome da Doutora</h2>
+                    <p>Informações sobre a psicóloga vão aqui...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção "Sessões" -->
+    <section id="sessoes" class="py-5">
+        <div class="container">
+            <h2>Sessões</h2>
+            <p>Informações sobre as sessões vão aqui...</p>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section class="py-5">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="contato-form">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="cidade" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="cidade" name="cidade" required>
+                </div>
+                <div class="mb-3">
+                    <label for="atendimento" class="form-label">Atendimento Online ou Presencial</label>
+                    <input type="text" class="form-control" id="atendimento" name="atendimento" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone de Contato</label>
+                    <input type="text" class="form-control" id="telefone" name="telefone" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Adicione o JavaScript do Bootstrap no final do corpo -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
